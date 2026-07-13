@@ -1,0 +1,36 @@
+{
+  "project_name": "نظام إدارة مشاريع مع تتبع الميزانية والزمن والمراحل",
+  "project_type": "project_management",
+  "color_palette": "emerald-600 and teal-500",
+  "modules": [
+    "مشاريع",
+    "فريق العمل",
+    "الميزانية"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_projects",
+    "project_details",
+    "team_members",
+    "budget_planning"
+  ],
+  "permissions": {
+    "guest": [
+      "index"
+    ],
+    "user": [
+      "index",
+      "list_projects",
+      "project_details"
+    ],
+    "admin": [
+      "index",
+      "list_projects",
+      "project_details",
+      "team_members",
+      "budget_planning"
+    ]
+  }
+}
